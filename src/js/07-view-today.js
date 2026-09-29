@@ -17,7 +17,7 @@ function setupHtml() {
       <div class="field"><label for="su-day">Invites per day</label><input class="input" id="su-day" name="day" type="number" min="1" max="40" value="20"></div>
       <div class="field full"><label for="su-offer">What you offer <span class="muted">(optional)</span></label><textarea class="textarea" id="su-offer" name="offer" placeholder="Example: We build custom CRMs and lead follow-up tools for small real estate teams."></textarea></div>
     </div>
-    <div class="row"><button class="btn btn-send btn-lg" type="submit">Create my desk ${ic('arrow')}</button></div>
+    <div class="row"><button class="btn btn-send btn-lg" type="submit">Create my desk ${ic('arrow')}</button><span class="muted">or</span><button class="btn btn-lg" type="button" data-act="restore-backup">${ic('refresh')} Restore a backup</button></div>
   </form>`;
 }
 function greeting(tz) { const h = tzNow(tz).h; return h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening'; }
