@@ -1,0 +1,8 @@
+{
+  "name": "outreach-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinkedIn outreach desk: ICP-matched invites, inbox replies and follow-ups, sent by hand.",
+  "engines": { "node": ">=18" },
+  "scripts": { "build": "python3 build.py" }
+}
